@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f9eae1; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #2d2d2d; 
+    background-image: url('/images/naslovna-strana-login.jpg');
+    background-size: cover;
+}
+
+#logo-slika {
+    width: 300px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around; /* ili space-between, space-evenly, ili flex-start/flex-end prema potrebi */
+    align-items: center; /* Centriranje po vertikali, možete koristiti i flex-start/flex-end prema potrebi */
+}
+
+#dostava-slika {
+    height: 540px;
+    border-radius: 8px;
+    width: 450px;
+}
+
+.login-container {
+    margin: 50px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+}
+
+/* Dodatni stilovi po potrebi */
+
+
+h2 {
+    color: orange;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Horizontalno, vertikalno, zamućenje, boja senke */
+
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #4a4a4a;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2; 
+    color: #333; 
+}
+
+button {
+    background-color: orange; 
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9; 
+}
+
+#greska{
+    color:red;
+    text-align: center;
+}
