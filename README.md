@@ -20,8 +20,7 @@ Ovaj website je razvijen koristeći HTML, CSS, JavaScript i Python. Cilj nam je 
 ## Pokretanje Projekta:
 
 1. Klonirajte repozitorijum: `git clone https://github.com/tvoj-username/food-delivery-website.git`
-2. Pokrenite backend server: `python server.py`
-3. Otvorite `index.html` u vašem web pregledaču.
+2. Pokrenite backend server: python -m http.server --cgi
 
 Ukoliko imate bilo kakvih pitanja ili povratnih informacija, slobodno nas kontaktirajte.
 
